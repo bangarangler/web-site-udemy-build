@@ -14,13 +14,15 @@
 		box-sizing: border-box;
 }
 
-html {
+html,
+body {
 		background-color: #fff;
 		color: #555;
 		font-family: 'Lato', 'Arial' ,sans-serif;
 		font-weight: 300;
 		font-size: 20px;
 		text-rendering: optimizeLegibility;
+		overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -354,7 +356,8 @@ header {
 /*-------------------------------------------------*/
 
 .section-testimonials {
-		background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/Users/Library/Desktop/jontemtest/omnifood/resources/css/img/back-customers.jpg);
+		background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+		url(/Users/Library/Desktop/jontemtest/omnifood/resources/css/img/back-customers.jpg);
 		background-size: cover;
 		color: #fff;
 		background-attachment: fixed;
